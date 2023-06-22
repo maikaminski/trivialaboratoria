@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Trívia Laboratoria</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <section class="container">
+    <h1>Princesas da Disney</h1>
+  
+     <p class="saudacao">Olá, <span id="usuario"></span> ! </p>
+      <section class=bloco>
+      <p class="pergunta">Qual princesa joga suas longas tranças?</p>
+      
+      <legend>Selecione a resposta correta:</legend>
+  
+      <div>
+        <input type="radio" name="princesas" id="cinderella" value="princesas1">
+        <label for="cinderella">Cinderella</label><br>
+        
+        <input type="radio" name="princesas" id="rapunzel" value="princesas2">
+        <label for="rapunzel">Rapunzel</label><br>
+        
+        <input type="radio" name="princesas" id="branca" value="princesas3">
+        <label for="branca">Branca de Neve</label><br>
+      </div>
+      <button onclick="verificaResposta1()" id="resposta2">Responder e ver o resultado</button>
+      </section>
+  
+    
+    <section class=bloco>
+    <p class="pergunta">Quantos são os anões da história da Branca de Neve?</p>
+    
+      
+      <legend>Selecione a resposta correta:</legend>
+  
+      <div>
+        <input type="radio" name="anoes" id="sete" value="anoes1">
+        <label for="sete">7 anões </label><br>
+        
+        <input type="radio" name="anoes" id="cinco" value="anoes2">
+        <label for="cinco">5 anões</label><br>
+        
+        <input type="radio" name="anoes" id="nove" value="anoes3">
+        <label for="nove">9 anões</label>
+      </div>
+      <button onclick="verificaResposta2()" id="resposta2">Responder e ver o resultado</button>
+    </section>
+    <section class=bloco>
+    <p class="pergunta">Do que era feito o sapatinho da Cinderella?</p>
+    
+      
+      <legend>Selecione a resposta correta:</legend>
+  
+      <div>
+        <input type="radio" name="sapatinho" id="vidro" value="sapatinho1">
+        <label for="vidro">Vidro</label><br>
+        
+      <input type="radio" name="sapatinho" id="diamante" value="sapatinho2">
+        <label for="diamante">Diamante</label><br>
+     
+        <input type="radio" name= "sapatinho" id="cristal" value="sapatinho3">
+        <label for="cristal">Cristal</label><br>
+      </div>
+      <button onclick="verificaResposta3()" id="resposta3">Responder e ver o resultado</button>
+  </section>
+  </section>
+  <script src="app.js"></script>
+</body>
+
+</html>

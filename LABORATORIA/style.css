@@ -1,0 +1,59 @@
+@import url('https://fonts.cdnfonts.com/css/new-walt-disney-font');
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #FFD0D0;
+  color: #090580;
+  font-family: 'New Walt Disney Font', sans-serif;
+  
+  
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  
+}
+.saudacao {
+  font-size: 35px;
+  font-weight: bold;
+}
+.pergunta {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bloco {
+  width: 500px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #98EECC;
+  padding: 1.5em;
+  margin: 1em;
+  border-radius: 10px;
+  background-color: #FAF0E4;
+  
+  
+}
+button {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 1em;
+  padding: 1em;
+  border-radius: 10px;
+  font-family: 'New Walt Disney Font', sans-serif;
+  border: 2px solid #98EECC;
+  background-color: #FFD0D0 ;
+  color: #090580;
+  
+}
+
+  
